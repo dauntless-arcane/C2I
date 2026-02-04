@@ -2,6 +2,19 @@ import EventCard from '@/components/EventCard'
 
 export default function Home() {
   const events = [
+    {
+    id: 'linkedin',
+    title: 'The LinkedIn Strategy – Build. Brand. Connect.',
+    description:
+      'A structured LinkedIn workshop focused on creating a professional presence. Learn profile optimization, personal branding, and networking strategies to build meaningful professional connections. Gain practical insights and actionable guidance to effectively leverage LinkedIn for career growth and professional development.',
+    speaker: 'Priyanka Rakshit',
+    eventDetails: {
+      date: '3rd February 2026',
+      time: '10:00 AM to 12:00 PM',
+      venue: '1st Block Auditorium'
+    },
+    link: '/register/linkedin'
+  },
   {
     id: 'resume',
     title: 'The Art of Resume Building',
@@ -28,20 +41,6 @@ export default function Home() {
       venue: '1st Block Auditorium'
     },
     link: '/register/interview'
-  },
-
-  {
-    id: 'linkedin',
-    title: 'The LinkedIn Strategy – Build. Brand. Connect.',
-    description:
-      'A structured LinkedIn workshop focused on creating a professional presence. Learn profile optimization, personal branding, and networking strategies to build meaningful professional connections. Gain practical insights and actionable guidance to effectively leverage LinkedIn for career growth and professional development.',
-    speaker: 'Priyanka Rakshit',
-    eventDetails: {
-      date: '3rd February 2026',
-      time: '10:00 AM to 12:00 PM',
-      venue: '1st Block Auditorium'
-    },
-    link: '/register/linkedin'
   }
 ]
 
