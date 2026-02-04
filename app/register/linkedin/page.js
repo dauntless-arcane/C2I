@@ -77,7 +77,7 @@ export default function LinkedInRegistration() {
         <p className="text-sm text-gray-700">Speaker: Priyanka Rakshit</p>
         <p className="text-sm text-gray-700">Date: 3 February 2026</p>
         <p className="text-sm text-gray-700">Time: 10:00 AM to 12:00 PM</p>
-        <p className="text-sm text-gray-700">Venue: Auditorium, Block 1</p>
+        <p className="text-sm text-gray-700">Venue: 1st Block Auditorium</p>
       </div>
 
       <form onSubmit={handleSubmit}>

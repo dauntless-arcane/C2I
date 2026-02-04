@@ -75,9 +75,9 @@ export default function ResumeRegistration() {
       <div className="mb-6 p-4 bg-blue-50 rounded-md">
         <h3 className="font-semibold text-primary mb-2">Event Details</h3>
         <p className="text-sm text-gray-700">Speaker: Shilpa Laharwal</p>
-        <p className="text-sm text-gray-700">Date: TBD</p>
-        <p className="text-sm text-gray-700">Time: TBD</p>
-        <p className="text-sm text-gray-700">Venue: TBD</p>
+        <p className="text-sm text-gray-700">Date: 5th February 2026</p>
+        <p className="text-sm text-gray-700">Time: 10:00 AM to 12:00 PM</p>
+        <p className="text-sm text-gray-700">Venue: 1st Block Auditorium</p>
       </div>
 
       <form onSubmit={handleSubmit}>

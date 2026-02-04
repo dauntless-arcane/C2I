@@ -9,8 +9,8 @@ export default function Home() {
       'A structured resume-building workshop designed to help students create strong, job-ready resumes. Learn the best formats, essential sections, and practical strategies to effectively highlight academics, extracurricular activities, and projects. Gain expert guidance on resume dos and don’ts, ATS optimization, and modern hiring practices to confidently prepare for the job market.',
     speaker: 'Shilpa Laharwal',
     eventDetails: {
-      date: 'TBD',
-      time: 'TBD',
+      date: '5th February 2026',
+      time: '10:00 AM to 12:00 PM',
       venue: '1st Block Auditorium'
     },
     link: '/register/resume'
@@ -21,7 +21,7 @@ export default function Home() {
     title: 'The Interview Playbook – Career Combat: Interview & GD Arena',
     description:
       'A structured preparation session focused on interviews and group discussions. Understand what recruiters look for, learn effective communication techniques, and develop strategies to present yourself with confidence and clarity. Gain practical insights, avoid common mistakes, and practice real-world scenarios to perform successfully in recruitment settings.',
-    speaker: 'TBD',
+    speaker: 'Mohammed Ashfak',
     eventDetails: {
       date: '10th February 2026',
       time: '11:00 AM to 1:00 PM',
