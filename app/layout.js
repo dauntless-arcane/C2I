@@ -4,8 +4,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Career Development Workshops | Christ University',
-  description: 'Register for career development workshops at Christ University',
+  title: 'Career 2 Industry | IIIC x CAPS',
+  description: 'Register for career development workshops and events organized by IIIC and CAPS. ',
 }
 
 export default function RootLayout({ children }) {
