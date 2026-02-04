@@ -13,26 +13,42 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <nav className="bg-primary text-white shadow-md">
-          <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-semibold">Career 2 Industry</h1>
-              <p className="text-sm px-2">Career Development Event</p>
-            </div>
-            <div className="flex items-center gap-4">
-              <img
-                src="/CAPS_logo.png"
-                alt="CAPS Logo"
-                className="h-10 w-auto object-contain"
-              />
-              <img
-                src="/logo2.png"
-                alt="IIIC Logo"
-                className="h-8 w-auto object-contain"
-              />
-            </div>
-          </div>
+          <div className="max-w-7xl mx-auto px-4 py-4">
 
+            <div className="
+              flex flex-col gap-3
+              sm:flex-row sm:items-center sm:justify-between
+            ">
+
+              {/* Title */}
+              <div className="text-center sm:text-left">
+                <h1 className="text-xl sm:text-2xl font-semibold">
+                  Career 2 Industry
+                </h1>
+                <p className="text-xs sm:text-sm opacity-90">
+                  Career Development Event
+                </p>
+              </div>
+
+              {/* Logos */}
+              <div className="flex justify-center sm:justify-end items-center gap-3 sm:gap-4">
+                <img
+                  src="/CAPS_logo.png"
+                  alt="CAPS Logo"
+                  className="h-8 sm:h-10 w-auto object-contain"
+                />
+                <img
+                  src="/logo2.png"
+                  alt="IIIC Logo"
+                  className="h-7 sm:h-8 w-auto object-contain"
+                />
+              </div>
+
+            </div>
+
+          </div>
         </nav>
+
         <main className="min-h-screen bg-background">
           {children}
         </main>
