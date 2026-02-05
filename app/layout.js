@@ -15,14 +15,23 @@ export default function RootLayout({ children }) {
         <nav className="bg-primary text-white shadow-md">
           <div className="max-w-7xl mx-auto px-4 py-4">
 
-            <div className="
-              flex flex-col gap-3
-              sm:flex-row sm:items-center sm:justify-between
-            ">
+            <div className="grid grid-cols-1 sm:grid-cols-3 items-center gap-3 text-center">
 
-              {/* Title */}
-              <div className="text-center sm:text-left">
-                <h1 className="text-xl sm:text-2xl font-semibold">
+              {/* LEFT — Main Logo */}
+              <div className="flex justify-center sm:justify-start">
+                <div className="h-16 w-34 flex items-center justify-center">
+                  <img
+                    src="/C2I.png"
+                    alt="Career 2 Industry Logo"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+              </div>
+
+
+              {/* CENTER — Title */}
+              <div>
+                <h1 className="text-lg sm:text-2xl font-semibold">
                   Career 2 Industry
                 </h1>
                 <p className="text-xs sm:text-sm opacity-90">
@@ -30,24 +39,34 @@ export default function RootLayout({ children }) {
                 </p>
               </div>
 
-              {/* Logos */}
-              <div className="flex justify-center sm:justify-end items-center gap-3 sm:gap-4">
-                <img
-                  src="/CAPS_logo.png"
-                  alt="CAPS Logo"
-                  className="h-8 sm:h-10 w-auto object-contain"
-                />
-                <img
-                  src="/logo2.png"
-                  alt="IIIC Logo"
-                  className="h-7 sm:h-8 w-auto object-contain"
-                />
+
+              {/* RIGHT — Partner Logos */}
+              <div className="flex justify-center sm:justify-end gap-2">
+
+                <div className="h-12 w-32 flex items-center justify-center">
+                  <img
+                    src="/1000099095.png"
+                    alt="IIIC Logo"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+
+                <div className="h-12 w-26 flex items-center justify-center">
+                  <img
+                    src="/CAPS_white.png"
+                    alt="CAPS Logo"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+
               </div>
 
             </div>
 
           </div>
         </nav>
+
+
 
         <main className="min-h-screen bg-background">
           {children}
