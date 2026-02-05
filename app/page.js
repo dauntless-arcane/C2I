@@ -52,7 +52,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-primary mb-3">IIIC x CAPS</h1>
         <h1 className="text-3xl font-bold text-primary mb-3">presents </h1>
         <h1 className="text-3xl font-bold text-primary mb-2">
-          Campus to Internship(C2I)
+          Campus to Internship (C2I)
         </h1>
         <p className="text-gray-600 text-lg">
           Select an event and register to participate
