@@ -1,10 +1,9 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({subsets: ['latin']})
 
 export const metadata = {
-  title: 'Career 2 Industry | IIIC x CAPS',
+  title: 'Campus To Internship | IIIC x CAPS',
   description: 'Register for career development workshops and events organized by IIIC and CAPS. ',
 }
 
@@ -12,59 +11,47 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="bg-primary text-white shadow-md">
-          <div className="max-w-7xl mx-auto px-4 py-4">
+        <nav className="bg-primary text-default border-b border-default shadow-sm">
+          <div className="max-w-7xl mx-auto px-6 py-4">
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 items-center gap-3 text-center">
+            {/* 3 perfectly equal columns */}
+            <div className="grid grid-cols-3 items-center">
 
-              {/* LEFT — Main Logo */}
-              <div className="flex justify-center sm:justify-start">
-                <div className="h-16 w-34 flex items-center justify-center">
-                  <img
-                    src="/C2I.png"
-                    alt="Career 2 Industry Logo"
-                    className="max-h-full max-w-full object-contain"
-                  />
-                </div>
+              {/* LEFT */}
+              <div className="flex justify-start">
+                <img
+                  src="/C2I_Transparent_Logo_New.png"
+                  alt="Career 2 Industry Logo"
+                  className="h-16 w-16 object-contain"
+                />
               </div>
 
-
-              {/* CENTER — Title */}
-              <div>
-                <h1 className="text-lg sm:text-2xl font-semibold">
-                  Career 2 Industry
+              {/* CENTER */}
+              <div className="flex justify-center">
+                <h1 className="text-xl sm:text-2xl font-semibold tracking-wide">
+                  Campus to Internship
                 </h1>
-                <p className="text-xs sm:text-sm opacity-90">
-                  Career Development Event
-                </p>
               </div>
 
+              {/* RIGHT */}
+              <div className="flex justify-end gap-6">
+                <img
+                  src="/IIIC_Transparent_Logo.png"
+                  alt="IIIC Logo"
+                  className="h-14 object-contain"
+                />
 
-              {/* RIGHT — Partner Logos */}
-              <div className="flex justify-center sm:justify-end gap-2">
-
-                <div className="h-12 w-32 flex items-center justify-center">
-                  <img
-                    src="/1000099095.png"
-                    alt="IIIC Logo"
-                    className="max-h-full max-w-full object-contain"
-                  />
-                </div>
-
-                <div className="h-12 w-26 flex items-center justify-center">
-                  <img
-                    src="/CAPS_white.png"
-                    alt="CAPS Logo"
-                    className="max-h-full max-w-full object-contain"
-                  />
-                </div>
-
+                <img
+                  src="/CAPS_logo.png"
+                  alt="CAPS Logo"
+                  className="h-12 object-contain "
+                />
               </div>
 
             </div>
-
           </div>
         </nav>
+
 
 
 
