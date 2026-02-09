@@ -33,12 +33,22 @@ export default function EventCard({ event }) {
         </div>
       )}
 
-      <Link 
-        //href={event.link}
-        className="mt-auto bg-secondary hover:bg-secondary text-white font-medium py-3 px-6 rounded-md text-center transition-colors duration-200"
-      >
-        Register Now
-      </Link>
+     {event.link ? (
+        <Link
+          href={event.link}
+          className="mt-auto bg-secondary hover:bg-primary text-white font-medium py-3 px-6 rounded-md text-center transition-colors duration-200"
+        >
+          Register Now
+        </Link>
+      ) : (
+        <button
+          disabled
+          className="mt-auto bg-gray-400 text-gray-200 font-medium py-3 px-6 rounded-md cursor-not-allowed"
+        >
+          Closed
+        </button>
+      )}
+
     </div>
   )
 }
