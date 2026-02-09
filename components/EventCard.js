@@ -34,8 +34,8 @@ export default function EventCard({ event }) {
       )}
 
       <Link 
-        href={event.link}
-        className="mt-auto bg-secondary hover:bg-primary text-white font-medium py-3 px-6 rounded-md text-center transition-colors duration-200"
+        //href={event.link}
+        className="mt-auto bg-secondary hover:bg-secondary text-white font-medium py-3 px-6 rounded-md text-center transition-colors duration-200"
       >
         Register Now
       </Link>
