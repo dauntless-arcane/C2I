@@ -69,7 +69,7 @@ export default function ResumeRegistration() {
   }
 
   return (
-    <FormLayout title="The Art of Resume Building">
+    <FormLayout title="The Resume Roadmap">
       {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
       
       <div className="mb-6 p-4 bg-blue-50 rounded-md">
