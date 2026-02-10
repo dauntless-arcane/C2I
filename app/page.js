@@ -16,19 +16,6 @@ export default function Home() {
     link: '/register/linkedin'
   },
   {
-    id: 'interview',
-    title: 'The Interview Blueprint - Prepare. Perform. Succeed.',
-    description:
-      'A structured preparation session focused on interviews and group discussions. Understand what recruiters look for, learn effective communication techniques, and develop strategies to present yourself with confidence and clarity. Gain practical insights, avoid common mistakes, and practice real-world scenarios to perform successfully in recruitment settings.',
-    speaker: 'Mr.Mohammed Ashfak',
-    eventDetails: {
-      date: 'February 10, 2026',
-      time: '11:00 AM to 1:00 PM',
-      venue: 'Block I Auditorium'
-    },
-    link: '/register/interview'
-  },
-  {
     id: 'resume',
     title: 'The Resume Roadmap - Build. Structure. Impress.',
     description:
