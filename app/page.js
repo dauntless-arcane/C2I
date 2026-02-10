@@ -10,7 +10,7 @@ export default function Home() {
     speaker: 'Ms.Priyanka Rakshit',
     eventDetails: {
       date: 'February 9, 2026',
-      time: '10:00 AM to 12:00 PM',
+      time: '11:00 AM to 1:00 PM',
       venue: 'Block I Auditorium'
     },
     link: '/register/linkedin'
@@ -36,7 +36,7 @@ export default function Home() {
     speaker: 'Ms.Shilpa Laharwal',
     eventDetails: {
       date: 'February 12, 2026',
-      time: '10:00 AM to 12:00 PM',
+      time: '11:00 AM to 1:00 PM',
       venue: 'Block III Auditorium'
     },
     link: '/register/resume'
