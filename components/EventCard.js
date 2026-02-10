@@ -33,10 +33,12 @@ export default function EventCard({ event }) {
         </div>
       )}
 
-       <button
-          disabled
-          className="mt-auto bg-gray-400 text-gray-200 font-medium py-3 px-6 rounded-md cursor-not-allowed"
-        >  Registration Closed  </button>
+       <Link
+        href={event.link}
+        className="mt-auto bg-primary hover:bg-primary/90 text-white font-medium py-3 px-6 rounded-md text-center transition"
+      >
+        Register Now
+      </Link>
       
 
     </div>
