@@ -9,9 +9,9 @@ export default function Home() {
       'A structured LinkedIn workshop focused on creating a professional presence. Learn profile optimization, personal branding, and networking strategies to build meaningful professional connections. Gain practical insights and actionable guidance to effectively leverage LinkedIn for career growth and professional development.',
     speaker: 'Ms.Priyanka Rakshit',
     eventDetails: {
-      date: 'February 9, 2026',
+      date: 'February 18, 2026',
       time: '11:00 AM to 1:00 PM',
-      venue: 'Block I Auditorium'
+      venue: 'Block II Ground Floor, Seminar Hall'
     },
     link: '/register/linkedin'
   },
