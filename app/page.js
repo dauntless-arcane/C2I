@@ -15,7 +15,7 @@ export default function Home() {
     },
     link: '/register/linkedin'
   },
-   /* {
+   {
     id: 'interview',
     title: 'The Interview Blueprint - Prepare. Perform. Succeed.',
     description:
@@ -27,8 +27,8 @@ export default function Home() {
       venue: 'Block I Auditorium'
     },
     link: '/register/interview'
-  },*/
-  /*{
+  },
+  {
     id: 'resume',
     title: 'The Resume Roadmap - Build. Structure. Impress.',
     description:
@@ -40,7 +40,7 @@ export default function Home() {
       venue: 'Block III Auditorium'
     },
     link: '/register/resume'
-  },*/
+  },
 
   
 ]
